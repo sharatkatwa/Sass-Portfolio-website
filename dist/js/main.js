@@ -4,6 +4,26 @@ const nav = document.querySelector('.nav');
 const menuNav = document.querySelector('.menu-nav');
 const navItems = document.querySelectorAll('.menu-nav__item');
 
+const twitterLink = document.getElementById('twitter');
+const instaLink = document.getElementById('instagram');
+const linkedinLink = document.getElementById('linkedin');
+const githubLink = document.getElementById('github');
+
+twitterLink.href = 'https://twitter.com/JkSharat';
+instaLink.href = 'https://www.instagram.com/sharat_katwa/';
+linkedinLink.href = 'https://www.linkedin.com/in/sharat-katwa/';
+githubLink.href = 'https://github.com/sharatkatwa';
+
+twitterLink.target = '_blank';
+instaLink.target = '_blank';
+linkedinLink.target = '_blank';
+githubLink.target = '_blank';
+
+twitterLink.rel = 'noopener noreferrer';
+instaLink.rel = 'noopener noreferrer';
+linkedinLink.rel = 'noopener noreferrer';
+githubLink.rel = 'noopener noreferrer';
+
 let showMenu = false;
 menuBtn.addEventListener('click', toggleMenu);
 
